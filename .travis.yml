@@ -1,13 +1,5 @@
 language: r
 
-#cache:
-#  directories:
-#    - /tmp/texlive
-#    - $HOME/.texlive
-#
-#install:
-#  - ./texlive_install.sh
-
 script:
   - make
 
