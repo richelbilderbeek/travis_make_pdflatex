@@ -1,5 +1,6 @@
-install:
-  - sudo apt install pdflatex
+before_install:
+  - sudo apt-get update
+  - sudo apt-get -y install pdflatex
 
 script:
   - make
