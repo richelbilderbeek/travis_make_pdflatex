@@ -1,10 +1,12 @@
-cache:
-  directories:
-    - /tmp/texlive
-    - $HOME/.texlive
+language: r
 
-install:
-  - ./texlive_install.sh
+#cache:
+#  directories:
+#    - /tmp/texlive
+#    - $HOME/.texlive
+#
+#install:
+#  - ./texlive_install.sh
 
 script:
   - make
