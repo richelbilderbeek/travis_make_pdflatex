@@ -3,3 +3,6 @@ language: r
 script:
   - make
 
+after_script:
+  - if [[ ! -z article_false.pdf ]]; then echo "File 'article.pdf' created"; exit 1; fi
+
