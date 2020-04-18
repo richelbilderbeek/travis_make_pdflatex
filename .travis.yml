@@ -1,2 +1,5 @@
+install:
+  - sudo apt install pdflatex
+
 script:
   - make
